@@ -16,7 +16,7 @@ class Navbar extends Component {
             </ul>
        
             <div className="nav-details">
-              <p className="nav-username"> Bob </p>
+              <p className="nav-username"> Bob </p> <!-- Replace 'Bob' by this.state.username -->
             </div>
           </nav>
         )
