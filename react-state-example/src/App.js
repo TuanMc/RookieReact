@@ -15,6 +15,8 @@ class App extends Component {
   return (
     <React.Fragment>
       <Navbar></Navbar>
+    
+    <!-- Remove this -->
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
@@ -31,8 +33,9 @@ class App extends Component {
         </a>
       </header>
     </div>
+    <!-- -->
 
-    <Home Name = {this.state.bootcamp}/>
+    <Home Name = {this.state.bootcamp}/> <!-- all props' names should be in camelCase -->
     </React.Fragment>
  
   );
